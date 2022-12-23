@@ -6,7 +6,7 @@ library(magrittr)     # Required to use the pipes %>%
 library(lubridate)
 library(stringr)
 
-for (i in 497:497) {
+for (i in 1:967) {
 
   message(i)
   
