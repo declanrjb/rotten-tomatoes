@@ -5,4 +5,5 @@ p <- ggplot(df, aes(x=tomatoMeter, y=audienceScore)) +
   scale_size(labels=scales::dollar_format(),range=c(1,20),name="Box Office Earnings",breaks=c(600000000,1200000000,1800000000,2400000000,3000000000)) +
   expand_limits(x=c(0,100),y=c(0,100)) +
   ggtitle("\n 1000 Highest Grossing Movies by Rotten Tomatoes Score - All Time \n") +
-  theme(text = element_text(size = 30),plot.title = element_text(face = "bold"),legend.key.height=unit(3,'cm'))
+  theme(text = element_text(size = 30),plot.title = element_text(face = "bold"),legend.key.height=unit(3,'cm')) +
+  theme_bw()
